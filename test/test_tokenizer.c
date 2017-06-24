@@ -1,5 +1,7 @@
 #include "unity.h"
 #include "tokenizer.h"
+#include "mock_tokenizerstring.h"
+#include "CException.h"
 
 void setUp(void)
 {
@@ -9,7 +11,16 @@ void tearDown(void)
 {
 }
 
-void test_tokenizer_NeedToImplement(void)
+void test_tokenizer(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement tokenizer");
+    CEXCEPTION_T ex;
+    
+    Try
+    {
+      
+    }
+    Catch(ex)
+    {
+      
+    }
 }
